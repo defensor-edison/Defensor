@@ -27,7 +27,9 @@ type Props = {};
 export default class App extends Component<Props> {
   render() {
     return (
+        <StyleProvider style={getTheme(material)}>
           <RootNavigation/>
+        </StyleProvider>
     );
   }
 }

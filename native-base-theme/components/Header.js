@@ -374,13 +374,13 @@ export default (variables = variable) => {
       platform === "ios" && variables.platformStyle !== "material" ? 6 : 10,
     paddingRight: 10,
     justifyContent: "center",
-      paddingTop: platform === "ios" ? 18 : version > 5.5 ? 0.03 * height : 0,
+      paddingTop: 5,
       borderBottomWidth: 0.5,
       borderBottomColor: '#c0c0c0',
       height:
           platform === "ios"
               ? height / width > 1.8 ? 0.07 * height : 0.1 * height
-              : height / width > 1.8 ? 0.09 * height : version > 5.5 ? 0.11 * height:0.6 * height,
+              : height / width > 1.8 ? 0.09 * height : version > 5.5 ? 0.10 * height:0.5 * height,
     // shadowColor: platform !== "ios" && platformStyle === "material" ? "#000" : 'rgba(0,0,0,0)',
     // shadowOffset: platform !== "ios" && platformStyle === "material" ? { width: 0, height: 2 } : { width: 0, height: 10 },
     // shadowOpacity: platform !== "ios" && platformStyle === "material" ? 0.5 : 0.5,

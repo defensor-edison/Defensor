@@ -1,6 +1,8 @@
+// @flow
+
 import variable from "./../variables/platform";
 
-export default (variables = variable) => {
+export default (variables /*: * */ = variable) => {
   const platform = variables.platform;
 
   const theme = {
@@ -38,18 +40,16 @@ export default (variables = variable) => {
         "NativeBase.Input": {
           paddingLeft: null,
           top: 10,
-          marginLeft: null,
-          height: 60
+          marginLeft: null
         },
         "NativeBase.Label": {
           left: 0,
-          top: 10,
-            marginLeft: 12,
+          top: 6
         },
         "NativeBase.Icon": {
           top: 6
         },
-        marginTop: 5,
+        marginTop: 15,
         marginLeft: 15
       },
       ".regular": {

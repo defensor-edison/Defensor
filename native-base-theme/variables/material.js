@@ -148,7 +148,7 @@ export default {
     // Header
     elevation: 5,
     toolbarBtnColor: "#AAA",
-    toolbarDefaultBg: "#ffffff",
+    toolbarDefaultBg: "#3F51B5",
     toolbarHeight: 56,
     toolbarSearchIconSize: 23,
     toolbarInputColor: "#fff",
